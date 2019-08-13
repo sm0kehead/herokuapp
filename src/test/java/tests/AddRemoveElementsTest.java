@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import page.objects.AddRemoveElementsPage;
 import page.objects.WelcomePage;
 
-public class AddRemoveElements extends TestBase {
+public class AddRemoveElementsTest extends TestBase {
 
 
 
