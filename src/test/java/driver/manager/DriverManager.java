@@ -12,7 +12,7 @@ public class DriverManager {
 
     public static WebDriver getWebDriver(){
         if (driver==null){
-            System.setProperty("webdriver.chrome.driver", "E:\\Tests\\herokuapp\\src\\test\\java\\resources\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "E:\\Tests\\herokuapp\\src\\main\\resources\\chromedriver.exe");
             driver = new ChromeDriver();
         }
         return driver;
